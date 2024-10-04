@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavBar from "@/components/NavBar"; // Correctly import the NavBar component
 
 export const metadata: Metadata = {
   title: "SnapZoska",
@@ -14,7 +15,12 @@ export default function RootLayout({
   return (
     <html lang="sk">
       <body>
-        {children}
+        <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+          <main style={{ flex: 1 }}>{children}</main> {/* Content area */}
+          <footer>
+            <NavBar /> {/* Bottom navigation */}
+          </footer>
+        </div>
       </body>
     </html>
   );
