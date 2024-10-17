@@ -26,7 +26,7 @@ export default function SimpleBottomNavigation() {
     >
       <BottomNavigation
         sx={{ 
-          backgroundColor: 'white', 
+          backgroundColor: 'purple', 
           color: 'black', 
           height: 56  // Adjust the height to make it more compact if needed
         }}
@@ -62,7 +62,7 @@ export default function SimpleBottomNavigation() {
         
         {/* Prihlásenie */}
         <BottomNavigationAction
-          label="textextext"
+          label="Prihlásenie"
           icon={<LoginIcon />}
           component={Link}
           href="/auth/prihlasenie"
