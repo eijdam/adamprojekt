@@ -26,7 +26,7 @@ export default function SimpleBottomNavigation() {
     >
       <BottomNavigation
         sx={{ 
-          backgroundColor: 'purple', 
+          backgroundColor: 'white', 
           color: 'black', 
           height: 56  // Adjust the height to make it more compact if needed
         }}
