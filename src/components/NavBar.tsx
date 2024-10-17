@@ -62,7 +62,7 @@ export default function SimpleBottomNavigation() {
         
         {/* Prihlásenie */}
         <BottomNavigationAction
-          label="Prihlásenie"
+          label="textextext"
           icon={<LoginIcon />}
           component={Link}
           href="/auth/prihlasenie"
